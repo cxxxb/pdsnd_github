@@ -20,7 +20,7 @@ def get_filters():
     month = ""
     day = ""
 
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s have a close look at some US bikeshare data!')
 
     while city not in ["chicago", "new york city", "washington"]:
         city = input("Which city would you like to look at: Chicago, New York City or Washington? ").lower()
@@ -175,10 +175,10 @@ def user_stats(df, city):
 
 def show_rows(df):
     row = 0
-    more_rows = input("Would you like to see 5 rows of data? Type 'yes' if so. ").lower()
+    more_rows = input("Would you like to see five (5) rows of data? Type 'yes' if so. ").lower()
     while more_rows == 'yes':
         print(df.iloc[row:row+5])
-        more_rows = input("\n Would you like to see 5 more rows of data? Type 'yes' if so. ").lower()
+        more_rows = input("\n Would you like to see five (5) more rows of data? Type 'yes' if so. ").lower()
         row += 5
 
 
