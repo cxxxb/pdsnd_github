@@ -4,7 +4,7 @@
 ### Project: Post my Bikeshare Python project on GitHub
 
 ### Description
-My project, written in Python, provides the user with an interface allowing her/him to consult bikeshare usage statistics in three cities: Chicago, New York City and Washington.
+My project, written in Python, provides the user with an interface allowing her/him to consult bikeshare usage statistics in three cities: Chicago, New York City and Washington. It allows the user to consult information, such as the most common route.
 
 ### Available bikeshare data
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
