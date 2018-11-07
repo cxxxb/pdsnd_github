@@ -9,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze. The while loop ensures that the user keeps being asked for input until a valid city/spelling is given.
 
     Returns:
         (str) city - name of the city to analyze
